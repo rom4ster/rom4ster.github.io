@@ -1,1 +1,130 @@
+body {
+    margin:0;
+    background:black;
+    background-image: url('spacephoto.jpeg');
+    background-attachment: fixed;
+    
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    -webkit-backdrop-filter-blur: 30px;
+    backdrop-filter: blur(3px);
 
+}
+
+.topnav li {
+
+    color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+     list-style-type: none;
+}
+
+.topnav li:hover {
+    
+    border-color: #4c0000;
+    border-bottom: 2px solid #4c0000;
+    color: white;
+    cursor: pointer;
+   
+}
+
+.topnav li.active {
+   /* background-color: #4e0000;*/
+    border-color: #4c0000;
+    border-bottom: 2px solid #8a0202;
+    color: white;
+}
+.bodyDiv{
+    color: #CCCCCC;
+    position:relative;
+    top:100px;
+    font-size:28pt;
+    
+}
+.langLi {
+    text-align:left;
+}
+#Contact {
+    text-align:center;
+}
+#Projects {
+    text-align:center;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.7);
+}
+#Projects p{
+    padding-left:20%;
+    padding-right:20%;
+}
+#Projects a{
+    color: #EEEEEE;
+}
+#Skills{
+    text-align:center;
+    color: #EEEEEE !important;
+}
+#langList{
+    display:block;
+    padding-left: 0px;
+margin: auto;
+list-style-position: outside;
+width:25%;
+}
+#langlist ul{
+    list-style-position: outside;
+}
+#About{
+    text-align:center;
+    color: #EEEEEE
+    
+}
+#About p{
+    padding-left:20%;
+    padding-right:20%;
+}
+#About h1{
+    font-size: 48pt;
+}
+#Home{
+    text-align:center;
+}
+#name {
+    font-size: 96pt;
+    font-family: OCR A Std, monospace;
+    background: white;
+    background: -webkit-linear-gradient(to right,#040404, #FFF, #040404);
+    background: linear-gradient(to right, #040404, #FFF, #040404);
+    
+
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+#Learner {
+    font-size: 36pt;
+    font-family: OCR A Std, monospace;
+    color: rgba(255,255,255,0.4)
+    
+}
+#Creator {
+    font-size: 48pt;
+    font-family: OCR A Std, monospace;
+   color: rgba(255,255,255,0.6)
+}
+#Developer {
+    font-size: 72pt;
+    font-family: OCR A Std, monospace;
+    color: rgba(200,0,0,0.8)
+    
+}
