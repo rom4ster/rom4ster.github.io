@@ -55,6 +55,9 @@ body {
 .langLi {
     text-align:left;
 }
+.heading{
+    font-size:36pt;
+}
 #Contact {
     text-align:center;
 }
